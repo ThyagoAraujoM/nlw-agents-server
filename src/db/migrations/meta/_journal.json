@@ -15,6 +15,13 @@
       "when": 1752452859282,
       "tag": "0001_lying_stature",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752797752440,
+      "tag": "0002_watery_shockwave",
+      "breakpoints": true
     }
   ]
 }
