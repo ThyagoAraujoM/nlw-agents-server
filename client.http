@@ -15,7 +15,7 @@ GET {{baseUrl}}/rooms
 
 # Create Room
 # @name CreateRoom
-POST {{baseUrl}}/create-room
+POST {{baseUrl}}/rooms
 Content-Type: application/json
 
 {
