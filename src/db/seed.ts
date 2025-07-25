@@ -16,6 +16,9 @@ await seed(db, schema).refine((f) => {
     questions: {
       count: 10,
     },
+    audioChunks: {
+      count: 0,
+    },
   };
 });
 

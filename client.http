@@ -19,7 +19,7 @@ POST {{baseUrl}}/rooms
 Content-Type: application/json
 
 {
-  "name": "Nome teste",
+  "name": "Nova question",
   "description": "descrição"
 }
 
@@ -37,10 +37,10 @@ GET {{baseUrl}}/rooms/{{roomId}}/questions
 
 # Create Question
 # @name CreateQuestion
-POST {{baseUrl}}/rooms/{{roomId}}/create-question
+POST {{baseUrl}}/rooms/20b8b650-62c7-4286-cca6-c3693b7c8811/create-question
 Content-Type: application/json
 
 {
-  "question": "Qual o conceito de x dentro de Y?"
+  "question": "Como os caminhões funcionam ?"
 }
 
